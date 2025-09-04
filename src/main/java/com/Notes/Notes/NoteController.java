@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/notes")
+@RequestMapping("/")
 @CrossOrigin(origins = "*") // allow frontend access from Vercel later
 public class NoteController {
 
