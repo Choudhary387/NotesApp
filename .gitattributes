@@ -1,2 +1,9 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+# Treat build files as binary
+src/main/resources/static/* text eol=lf
+src/main/resources/static/static/* binary
+*.js binary
+*.css binary
+*.json text eol=lf
+*.txt text eol=lf
